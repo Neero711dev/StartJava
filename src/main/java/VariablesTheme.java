@@ -9,7 +9,15 @@ public class VariablesTheme {
         short vRAM = 4;
         char speakers = 0x32 ;
 
-        System.out.print("Cores "+cores+"\nDisplay "+display+"\nMemory "+memory+"\nCore frequency "+freq+"\nStorage "+storage+"\nIs it desktop pc? "+isDesktop+"\nvRAM "+vRAM+"\nSpeakers count "+speakers);
+        System.out.print("Cores "+cores+"\nDisplay "+display+"\nMemory "+memory+"\nCore frequency "+freq+"\nStorage "+storage+"\nIs it desktop pc? "+isDesktop+"\nvRAM "+vRAM+"\nSpeakers count "+speakers+"\n");
+        System.out.println("");
+        int bpen = 100;
+        int bbook = 200;
+        System.out.println("Overall "+(bpen+bbook));
+        double a= (bpen+bbook)*0.11;
+        System.out.println("Discount "+a);
+        double b = (bpen+bbook)*0.89;
+        System.out.println("Overall price with discount "+b);
 
     }
 }
