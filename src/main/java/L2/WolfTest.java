@@ -7,7 +7,7 @@ public class WolfTest {
         Wolf Volk = new Wolf();
         System.out.println("Name : "+ Volk.getName() + " ; Age : " + Volk.getAge());
         Volk.setName("Dobriyvolk");
-        Volk.setAge(19);
+        Volk.setAge(5);
         System.out.println("Name : "+ Volk.getName() + " ; Age : " + Volk.getAge());
 
         Volk.howl();
