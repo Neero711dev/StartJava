@@ -1,29 +1,53 @@
 package L2;
 
 public class Wolf {
-    String name;
-    String sex;
-    int weight;
-    int age;
-    String color;
+   private String name = "Zloivolk";
+    private String sex;
+    private int weight;
+    private int age = 2;
+    private String color;
 
-    void run() {
+    public String getName() {
+       return name;
+    }
+
+    public void run() {
         System.out.println("is running");
     }
 
-    void sit() {
+   public void sit() {
         System.out.println("is sitting");
     }
 
-    void walk() {
+    public void walk() {
         System.out.println("is walking");
     }
 
-    void howl() {
+    public void howl() {
         System.out.println(name + " is howling");
     }
 
-    void hunt() {
-        System.out.println("is hunting");
+    public void hunt() {
+        System.out.println(name + " is hunting");
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public void setAge(int age) {
+        if (age < 8 ) {
+            this.age = age;
+        } else {
+            System.out.println("Invalid age");
+        }
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
