@@ -16,7 +16,7 @@ public class CalcV2Test {
             a = con.nextInt();
             if (a > 0) {execute.setA(a);} else {System.out.println("Negative numeral"); continue cycS;}
             System.out.println("Введите знак математической операции: ");
-            execute.setSign(con.next()); // TODO exception - divide by zero / wrong operation
+            execute.setSign(con.next()); // TODO exception - divide by zero / wrong operation / rest
             System.out.println("Введите второе число: ");
             b = con.nextInt();
             if (b > 0) {execute.setA(b);} else {System.out.println("Negative numeral"); continue cycS;}
