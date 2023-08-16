@@ -12,7 +12,7 @@ public class CalcV2 {
 
     public int count(int a, int b, String sign) {
 
-        if (a > 0 && b > 0) {
+
             switch (sign) {
                 case ("%"):
                     result = a % b;
@@ -37,7 +37,7 @@ public class CalcV2 {
                 default:
                     System.out.println("Invalid operation");
             }
-        }
+
         return result;
     }
 
