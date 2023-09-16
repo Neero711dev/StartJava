@@ -1,4 +1,6 @@
-package L2;
+package L2.calculator;
+
+import L2.calculator.CalcV2;
 
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package basictask;
+
 public class IfElseStatementTheme {
     public static void main(String[] args) {
         System.out.println("Task 1 Translate to Java\n");

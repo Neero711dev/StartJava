@@ -1,3 +1,5 @@
+package basictask;
+
 public class VariablesTheme {
     public static void main(String[] args) {
         byte cores = 4;

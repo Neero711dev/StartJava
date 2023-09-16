@@ -1,4 +1,4 @@
-package L2;
+package L2.calculator;
 
 public class CalcV2 {
     private int a;
