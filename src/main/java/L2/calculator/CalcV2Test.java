@@ -1,12 +1,11 @@
 package L2.calculator;
 
-import L2.calculator.CalcV2;
-
 import java.util.Scanner;
 
 public class CalcV2Test {
     public static void main(String[] args) {
         Scanner con = new Scanner(System.in);
+        System.out.println("Calculator's executing...");
         CalcV2 execute = new CalcV2();
         String A= "y";
         int a;
@@ -21,7 +20,7 @@ public class CalcV2Test {
             execute.setSign(con.next()); // TODO exception - divide by zero / wrong operation / rest
             System.out.println("Введите второе число: ");
             b = con.nextInt();
-            if (b > 0) {execute.setA(b);} else {System.out.println("Negative numeral"); continue cycS;}
+            if (b > 0) {execute.setB(b);} else {System.out.println("Negative numeral"); continue cycS;}
             execute.count(execute.getA(), execute.getB(), execute.getSign());
             System.out.println(execute.getResult());
             System.out.println("Continue y/n");
