@@ -1,6 +1,4 @@
-package L2;
-
-import java.sql.SQLOutput;
+package L2_L3;
 
 public class WolfTest {
     public static void main(String[] args) {
